@@ -1,0 +1,17 @@
+@import "ABSTRACTS/mixins.scss";
+@import "ABSTRACTS/variables.scss";
+
+@import "BASE/animations.scss";
+@import "BASE/base.scss";
+@import "BASE/typography.scss";
+@import "BASE/utilities.scss";
+
+@import "COMPONENTS/admission.scss";
+@import "COMPONENTS/button.scss";
+@import "COMPONENTS/card.scss";
+@import "COMPONENTS/login.scss";
+
+@import "LAYOUT/navbar.scss";
+@import "LAYOUT/footer.scss";
+
+@import "PAGES/home";

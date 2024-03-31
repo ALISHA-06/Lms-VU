@@ -1,0 +1,37 @@
+.section-admission{
+    text-align: $align-center;
+    &__apply-link{
+        margin: 3rem;
+        display: inline-block;
+    }
+    &__apply--link{
+        transition: $transition-4s;
+        @include button-hover-maroon
+    }
+}
+
+.table{    
+    &__row{ 
+        display: table;
+        width: 100%;
+        border-bottom:1.5px solid $color-gray;
+        text-align: left;
+        &--head{
+            border-top: 1.5px solid $color-gray;
+            font-weight: 600;
+        }
+    }
+    &__column{
+        display: table-cell;
+        border-left: 1.5px solid $color-gray;
+        padding: 1.5rem 1rem;
+        font-size: $font-size;       
+        &--1{
+            width: 65%;
+        }
+        &--3{
+            width: 20%;
+            border-right: 1.5px solid $color-gray;
+        }
+    }
+}

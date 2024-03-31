@@ -1,0 +1,47 @@
+.footer{
+    background-color: $color-blue;
+    padding: 3rem 0;
+    &__image{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    &__item{
+        list-style: none;
+        padding: .5rem;
+    }
+    &__link{
+        transition:$transition-4s;
+        &:link,
+        &:visited{
+            text-decoration: $no-decoration;
+            font-size: 1.8rem;
+            color: $color-white;
+        }
+        &:hover{
+            color: $color-maroon;
+        }
+    }
+}
+.row{
+    width:90%;
+    margin: $margin-auto;
+    @include clearfix;
+}
+
+.col-1-of-3{
+    float: left;
+    width: calc((100% - 2 * 4rem)/3);
+    &:not(:last-child){
+        margin-right: 4rem;
+    }
+}
+.col-1{
+    text-align: $align-center;
+}
+
+.footer-below{
+    text-align: center;
+    padding: 1.5rem 0 0 0 ;
+    font-size: 2rem;
+    color: $color-blue;
+}

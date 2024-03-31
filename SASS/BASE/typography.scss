@@ -1,0 +1,50 @@
+.heading-secondary{
+    font-size: 3rem;
+    color: $color-blue;
+    text-align: $align-center;
+    padding: 1rem 0;
+    text-transform: $uppercase;
+}
+.heading-primary{
+    color: $color-maroon;
+    font-size: 1.7rem;
+}
+.heading-maroon{
+    background-color: $color-maroon;
+    color: $color-white;
+    margin: 2rem 0;
+}
+.heading-bg-blue{
+    background-color: $color-blue;
+    color: $color-white;
+    margin: 3rem 0;
+}
+.paragraph{
+    font-size: $font-size;
+    text-align:$align-center;
+}
+.link{
+    &:link,
+    &:visited{
+        background-color: $color-blue;
+        color: $color-white;
+        padding: 1rem 2rem;
+        text-decoration: $no-decoration;
+        border-radius: 5px;
+        font-size: $font-size;
+    }
+}
+.section-guide__heading-1{
+    padding: 3rem 4rem;
+    background-color: $color-gray-2;
+    font-style: italic;
+    font-weight: 700;
+    color: $color-maroon;
+}
+.heading-white{
+    text-transform: uppercase;
+    color: $color-white;
+    font-weight: 700;
+    padding-bottom:.3rem ;
+
+}

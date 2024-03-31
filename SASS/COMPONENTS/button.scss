@@ -1,0 +1,30 @@
+.btn{
+    background-color:$color-white;
+    padding: 1rem 3.4rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem 2rem;
+    box-shadow: inset .5rem .5rem .9rem rgba($color-black, .2);
+
+    &__form{
+        transition: $transition-4s;
+        &:hover{
+            background-color: $color-maroon;
+            color: $color-white;
+        }
+    }
+    &__forgot{
+        &:hover{
+            background-color: $color-blue;
+            color: $color-white;
+        }
+    }
+}
+.btn-announcement{
+    text-align: $align-center;
+    margin: 2rem;
+}
+
+
+
+
